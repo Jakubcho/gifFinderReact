@@ -1,0 +1,44 @@
+$background-blue: #666699;
+
+*{
+	box-sizing: border-box;
+	background-color: white;
+	border-radius:10px;
+} 
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	height: 100vh;
+	background-color: $background-blue;
+	flex-direction: column;
+	div {
+		display: flex;
+		background-color: $background-blue;
+		justify-content: center;
+		align-items:center;
+		flex-direction: column;
+		.container-elem {
+			padding: 5px;
+		}	
+	}
+}
+
+.search-elem {
+	font-size: 1.5em;
+	max-width: 350px;
+}
+
+.gif-elem {
+	justify-content: center;
+	align-items: center;
+	min-height: 310px;	a {
+		min-height: 80%;
+		min-width: 80%;
+		background-color: $background-blue;
+	}
+	img {
+		min-width: 25%;
+	}
+}
